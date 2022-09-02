@@ -1,7 +1,6 @@
-import { combineReducers, createSlice } from "@reduxjs/toolkit";
 import { createSlice } from '@reduxjs/toolkit';
 
-export const templateSlice = createSlice({
+export const todoSlice = createSlice({
     name: 'name',
     initialState: {
         counter: 10
@@ -13,6 +12,5 @@ export const templateSlice = createSlice({
     }
 });
 
-
 // Action creators are generated for each case reducer function
-export const { increment } = templateSlice.actions;
+export const { increment } = todoSlice.actions;
